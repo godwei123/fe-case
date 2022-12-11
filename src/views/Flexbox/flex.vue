@@ -194,7 +194,7 @@
 
 import {CSSProperties, ref} from "vue";
 import ProSelect from "../../components/ProSelect/index.vue"
-import {flexDirection, flexWrap, justifyContent, alignContent, alignItems} from './config'
+import {flexDirection, flexWrap, justifyContent, alignContent, alignItems} from '../../pages/flexbox/config'
 
 const nums = ref<number>(20)
 const flexContainerStyles = ref<CSSProperties>({
